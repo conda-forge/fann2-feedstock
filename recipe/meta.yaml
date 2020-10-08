@@ -8,7 +8,7 @@ source:
   sha256: f31c92c1589996f97d855939b37293478ac03d24b4e1c08ff21e0bd093449c3c
 
 build:
-  number: 1001
+  number: 1002
   skip: True  # [win]
 
 requirements:
@@ -32,7 +32,7 @@ test:
 about:
   home: https://github.com/libfann/fann
   license_file: COPYING.txt
-  license: LGPL-2+
+  license: LGPL-2.1
   summary: 'Fast Artificial Neural Network (FANN) Library'
 
 extra:
