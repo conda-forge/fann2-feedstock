@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cmake -DCMAKE_INSTALL_PREFIX=$PREFIX $SRC_DIR 
+cmake -DCMAKE_INSTALL_PREFIX=$PREFIX $SRC_DIR -DCMAKE_POLICY_VERSION_MINIMUM=3.5
 make install
 
 # Add more build steps here, if they are necessary.
