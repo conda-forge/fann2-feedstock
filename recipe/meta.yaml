@@ -14,6 +14,7 @@ build:
 requirements:
   build:
     - cmake
+    - make
     - {{ compiler('c') }}
     - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
